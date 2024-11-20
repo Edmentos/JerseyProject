@@ -1,0 +1,45 @@
+.button-container{
+    position:relative;
+    height: 500px;
+    width: 100%;
+}
+
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/006/580/315/non_2x/high-quality-map-of-europe-with-country-border-vector.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
+
+.country-button {
+    position:absolute;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.country-button.england { bottom: 29%; left: 22%; }
+.country-button.france { bottom: 15%; left: 29%; }
+.country-button.germany { bottom: 25%; left: 39%; }
+.country-button.italy { bottom: 13%; left: 41%; }
+.country-button.spain { bottom: 1%; left: 20%;}
+
+.country-button:hover {
+    background-color: #b30000;
+}
+

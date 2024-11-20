@@ -1,0 +1,36 @@
+body {
+    background-image: url('https://t4.ftcdn.net/jpg/05/12/61/05/360_F_512610544_0excDel8sZTq4W0XLJTSehr9dZfOqi5R.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.shop-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px; 
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-size: 20px; 
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3); /* Increased blur radius and opacity */
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.shop-button:hover {
+    background-color: green; 
+    transform: scale(1.2); 
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5); /* Increased blur radius and opacity */
+}
