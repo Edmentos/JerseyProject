@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ie.atu</groupId>
-    <artifactId>Project</artifactId>
+    <artifactId>JerseyProjectRegions</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Project</name>
     <description>Project</description>
