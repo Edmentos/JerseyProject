@@ -15,8 +15,6 @@ public class Region {
     @Column(name = "teamName")
     private String regionName;
 
-
-
     public Long getRegionId() {
         return regionId;
     }
@@ -32,5 +30,4 @@ public class Region {
     public void setRegionName(String regionName) {
         this.regionName = regionName;
     }
-
 }
