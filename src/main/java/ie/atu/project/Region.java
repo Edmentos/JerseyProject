@@ -15,9 +15,6 @@ public class Region {
     @Column(name = "teamName")
     private String regionName;
 
-    @OneToMany(mappedBy = "region")
-    private List<Team> teams;
-
     public Long getRegionId() {
         return regionId;
     }
@@ -32,13 +29,5 @@ public class Region {
 
     public void setRegionName(String regionName) {
         this.regionName = regionName;
-    }
-
-    public List<Team> getTeams() {
-        return teams;
-    }
-
-    public void setTeams(List<Team> teams) {
-        this.teams = teams;
     }
 }
